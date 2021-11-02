@@ -1,5 +1,7 @@
 ///programmers(카카오프렌즈 컬러링북) https://programmers.co.kr/learn/courses/30/lessons/1829
-class Solution {
+package pro1829;
+
+public class Solution {
 
     int[] dx = {1, 0, -1, 0};
     int[] dy = {0, 1, 0, -1};
