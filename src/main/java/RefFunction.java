@@ -1,5 +1,6 @@
 public class RefFunction {
     private static int[][] getBoard(String tmp, int isize, int jsize) {
+        tmp = tmp.substring(2, tmp.length() - 2);
         int[][] board = new int[isize][jsize];
         String[] split = tmp.split("],\\[");
 
